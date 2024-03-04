@@ -2,7 +2,7 @@ import Mathlib.Data.List.Basic -- requiring mathlib to see if it can be handled
 import Std
 
 def using_std_test : Std.HashMap Nat String :=
-  Std.HashMap.empty |>.insert 5 "this was compiled into WASM!"
+  Std.HashMap.empty |>.insert 5 "this was compiled into Risc-V!"
 
 def msg := using_std_test.find! 5
 
